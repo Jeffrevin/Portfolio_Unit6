@@ -14,7 +14,7 @@
     p {
       color: white;
     }
-    }
+    
     img {
       margin: 40px 0px 0px 0px;
       border: 7px solid white;
@@ -27,16 +27,39 @@
     li {
       display: inline;
       padding: 0px 10px 0px 10px;
+      font-size: 20px;
     }
     .project {
       background-color: #010d21;
       opacity: 0.8;
     }
+    #titledivabout {
+      font-weight: bolder;
+      font-size: 40px;
+      width: 200px;
+      height: 75px;
+      text-align: center;
+      color: blue;
+    }
+    h3 {
+      font-size: 35px;
+    }
+    #titledivcontact {
+      font-weight: bolder;
+      width: 200px;
+      height: 75px;
+      text-align: center;
+      font-size: 40px;
+    }
+    .cut {
+      border-top: 2px gray solid;
+      opacity: 0.9;
     }
     div{
       max-width: 500px;
       padding: 20px;
       margin: 0 auto;
+
     }
     @media (max-width: 500px) {
       h1 {
